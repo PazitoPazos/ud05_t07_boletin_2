@@ -19,7 +19,7 @@
             </p>
         </form>
         <?php
-            $res=$_REQUEST["num1"] + $_REQUEST["num2"];
+            $res=$_REQUEST["num1"] * $_REQUEST["num2"];
             echo "Resultado: ".$res;
         ?>
     </body>
